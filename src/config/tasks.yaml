@@ -1,0 +1,11 @@
+define_project_scope:
+  description: >
+    Gather detailed project requirements and provide an execution plan.
+  expected_output: >
+    A detailed project scope and execution plan approved by the user.
+    
+load_sales_data:
+  description: >
+    Load the sales transaction data, perform EDA, and prepare the data by calculating RFM, AOV, and AOI metrics.
+  expected_output: >
+    Preprocessed sales transaction data with additional fields for RFM, AOV, and AOI metrics.
